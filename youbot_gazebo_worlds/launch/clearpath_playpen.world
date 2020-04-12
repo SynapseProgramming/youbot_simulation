@@ -10,7 +10,7 @@ Redistribution and use in source and binary forms, with or without modification,
 the following conditions are met:
  * Redistributions of source code must retain the above copyright notice, this list of conditions and the
    following disclaimer.
- * Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the 
+ * Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the
    following disclaimer in the documentation and/or other materials provided with the distribution.
  * Neither the name of Clearpath Robotics nor the names of its contributors may be used to endorse or promote
    products derived from this software without specific prior written permission.
@@ -2692,51 +2692,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
       <pose>1.45104 -6.51057 0 0 -0 0</pose>
       <static>0</static>
     </model>
-    <model name='asphalt_plane'>
-      <static>1</static>
-      <link name='link'>
-        <collision name='collision'>
-          <geometry>
-            <box>
-              <size>20 20 0.1</size>
-            </box>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <bounce/>
-            <friction>
-              <ode/>
-            </friction>
-            <contact>
-              <ode/>
-            </contact>
-          </surface>
-        </collision>
-        <visual name='visual'>
-          <cast_shadows>0</cast_shadows>
-          <geometry>
-            <box>
-              <size>20 20 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>model://asphalt_plane/materials/scripts</uri>
-              <uri>model://asphalt_plane/materials/textures</uri>
-              <name>vrc/asphalt</name>
-            </script>
-          </material>
-        </visual>
-        <velocity_decay>
-          <linear>0</linear>
-          <angular>0</angular>
-        </velocity_decay>
-        <self_collide>0</self_collide>
-        <kinematic>0</kinematic>
-        <gravity>1</gravity>
-      </link>
-      <pose>-0.464139 0 0 0 -0 0</pose>
-    </model>
+
     <model name='Construction Barrel_1'>
       <link name='link'>
         <inertial>
@@ -3260,15 +3216,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='asphalt_plane'>
-        <pose>0.076733 -0.110379 0 0 -0 0</pose>
-        <link name='link'>
-          <pose>0.076733 -0.110379 0 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
+
       <model name='fire_hydrant'>
         <pose>3.18024 -6.51118 0 0 -0 0</pose>
         <link name='link'>
@@ -3280,7 +3228,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
       </model>
       <model name='fire_hydrant_0'>
         <pose>-3 4 0 0 -0 0</pose>
-        <link name='link'>
+        <link name='link'>s
           <pose>-3 4 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
