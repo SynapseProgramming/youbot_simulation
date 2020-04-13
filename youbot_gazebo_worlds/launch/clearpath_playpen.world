@@ -51,8 +51,8 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
           <surface>
             <friction>
               <ode>
-                <mu>100</mu>
-                <mu2>50</mu2>
+                <mu>600</mu>
+                <mu2>500</mu2>
               </ode>
             </friction>
             <bounce/>
